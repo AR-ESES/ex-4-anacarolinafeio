@@ -16,11 +16,11 @@ function draw() {
     for (let j = 1; j < espAltura; j++) {
       push();
       translate(i * width / espLarg, j * height / espAltura)
-      translate(-515,-125);
+      translate(-515,-125)
       scale(0.16);
 strokeWeight(4);
 stroke(100,149,237);
-fill(255,222,173);
+fill(random(255,222,173));
 circle(650, 200, 150);
 strokeWeight(0.5);
 stroke(255,255,255);
