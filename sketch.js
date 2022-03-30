@@ -3,7 +3,7 @@ let espAltura = 20;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  background(0);
+  background(10);
   stroke(255);
   strokeWeight(2);
   noFill();
@@ -15,7 +15,9 @@ function draw() {
   for (let i = 1; i < espLarg; i++) {
     for (let j = 1; j < espAltura; j++) {
       push();
-      translate(i * width / espLarg,j * height / espAltura)
+      translate(i * width / espLarg, j * height / espAltura)
+      translate(-575,-125)
+      scale(0.16);
 strokeWeight(4);
 stroke(100,149,237);
 fill(255,222,173);
