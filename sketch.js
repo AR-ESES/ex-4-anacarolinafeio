@@ -1,4 +1,4 @@
-let espLarg = 20;
+let espLarg = 30;
 let espAltura = 20;
 
 function setup() {
@@ -16,7 +16,7 @@ function draw() {
     for (let j = 1; j < espAltura; j++) {
       push();
       translate(i * width / espLarg, j * height / espAltura)
-      translate(-575,-125)
+      translate(-515,-125);
       scale(0.16);
 strokeWeight(4);
 stroke(100,149,237);
